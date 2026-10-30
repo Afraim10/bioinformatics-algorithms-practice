@@ -1,3 +1,5 @@
+# FIB: Rabbits and Recurrence Relations
+
 def dynamic_programmed(filepath: str) -> int:
     with open(filepath, "r", encoding="utf-8") as f:
         sequence = f.read().strip()
@@ -21,5 +23,5 @@ def dynamic_programmed(filepath: str) -> int:
 
 
 if __name__ == "__main__":
-    results = dynamic_programmed("rosalind_fib.txt")
+    results = dynamic_programmed("rosalind_iprb.txt")
     print(results)
